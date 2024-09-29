@@ -12,7 +12,9 @@
     ],
     "license": "MIT",
     "dependencies": {
-        "pdfkit": "pdfkit"
+        "weasyprint": "weasyprint",
+        "markdown2": "markdown2",
+        "gobject": "gobject-2.0-0"
     },
     "verbose": true
 }

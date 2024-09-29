@@ -18,7 +18,7 @@ class Setup:
 
         for pkg, pkg_src in pkgs.items():
             try:
-                exec(f"import {pkg}")
+                __import__(pkg)
                 status[pkg] = True
 
             except ImportError as e:
